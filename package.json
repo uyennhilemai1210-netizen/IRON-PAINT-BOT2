@@ -1,0 +1,19 @@
+{
+  "name": "iron-paint-chatbot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "keywords": ["chatbot", "messenger", "facebook", "iron-paint"],
+  "author": "Iron Paint",
+  "license": "ISC",
+  "description": "Facebook Messenger Chatbot cho Iron Paint",
+  "dependencies": {
+    "axios": "^1.14.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "openai": "^6.33.0"
+  }
+}
